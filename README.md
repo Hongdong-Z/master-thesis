@@ -45,4 +45,6 @@ accurate poses.
 Finally, these two localization systems achieve high localization accuracy with a mean
 position error of less than 6cm.
 <img width="708" alt="image" src="https://user-images.githubusercontent.com/77051392/208889797-e4e14e58-2f53-4e12-8708-d70c39613cf7.png">
+<img width="695" alt="image" src="https://user-images.githubusercontent.com/77051392/208889962-107c1553-d1ca-45ad-ab5b-76820e49b2e2.png">
+
 
