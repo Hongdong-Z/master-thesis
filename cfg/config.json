@@ -1,0 +1,50 @@
+{
+  "main": {
+    "dataRoot": "/mrtstorage/users/hu/data/ostring",
+    "outputFolder": "/home/zhao/zhd_ws/src/localization_lidar/output_test_feature_extraction/",
+    "startDataRange": 1,
+    "stopDataRange": 500,
+
+    "outputFolderMap": "/home/zhao/zhd_ws/src/localization_lidar/maps/",
+    "outputFolderPrimitivesMap": "/home/zhao/zhd_ws/src/localization_lidar/primitiveMaps/",
+    "exportClusteredPoints": true,
+
+    "removeDynamicObjects": false,
+    "removeNonTrafficElements": false,
+    "dilationSize": 10,
+
+    "instanceNumberOfPointsThreshold": 8,
+    "minPoleBlackRatio": 0.3,
+    "maxTrafficSignWidth": 10,
+    "minimumNumberOfEdges": 5,
+    "minimumConfidence": 0.725
+
+  },
+  "feature_extraction": {
+    "meshSize": 0.15,
+    "minNumPoint": 60,
+    "length": 300,
+    "width": 80
+  },
+  "odometry": {
+    "nearestFeatureSearchSqDist": 40,
+    "normalThreshold": 0.01
+  },
+  "curb_extraction": {
+    "curbThreshold": 1
+  },
+  "surface_extraction": {
+    "parallelThreshold": 0.01,
+    "horizontalThreshold": 0.03
+  },
+  "edge_extraction": {
+    "minPoints": 100,
+    "epsilon": 0.1
+  },
+  "pose": {
+    "dataRoot": "/mrtstorage/users/hu/data/ostring",
+    "poseFilePath" : "/home/zhao/zhd_ws/src/localization_lidar/input/odom_os_opt_final.txt"
+
+  }
+}
+
