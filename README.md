@@ -44,3 +44,5 @@ odometry and map-matching outputs are fed into pose graph optimization to calcul
 accurate poses.
 Finally, these two localization systems achieve high localization accuracy with a mean
 position error of less than 6cm.
+<img width="708" alt="image" src="https://user-images.githubusercontent.com/77051392/208889797-e4e14e58-2f53-4e12-8708-d70c39613cf7.png">
+
